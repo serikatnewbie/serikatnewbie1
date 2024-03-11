@@ -81,8 +81,10 @@ document.addEventListener("DOMContentLoaded", function() {
     new Glide('.glide', {
         type: 'carousel',
         perView: 3,
-        focusAt: 'center'
+        focusAt: 'center',
+        autoplay: 3000, // Adjust the autoplay duration (in milliseconds) to make it move slowly
     }).mount();
+    
     
 
   });
