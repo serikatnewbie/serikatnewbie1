@@ -1,0 +1,131 @@
+/* Import Futura font */
+@import url('https://fonts.googleapis.com/css2?family=Futura&display=swap');
+
+body {
+    background-color: #121212; /* Dark background color */
+    color: #f5f5f5; /* Light text color */
+    font-family: 'Futura', sans-serif; /* Use Futura font */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjusted minmax value for smaller screens */
+    gap: 20px;
+    margin: 0 auto; /* Center the container */
+}
+
+.profile {
+    background-color: #333; /* Darker background color */
+    border-radius: 10px;
+    padding: 5px; /* Reduced padding further */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Adjusted shadow color */
+}
+
+.profile img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.profile h1 {
+    margin: 5px 0;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+.profile h2 {
+    margin: 0 0 5px;
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
+
+.achievements {
+    background-color: #333; /* Darker background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Adjusted shadow color */
+    margin-top: 30px;
+    user-select: none;
+    display: flex; /* Change display to flex */
+    justify-content: space-around; /* Adjust space between achievements */
+    flex-wrap: wrap; /* Allow achievements to wrap */
+}
+
+
+.achievements h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.glide__slides {
+    margin-top: 40px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.glide__slide {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* Add your CSS styles here */
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the title */
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #ccc; /* Lighter text color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.motto {
+    font-style: italic;
+    color: #aaa; /* Lighter text color */
+    text-align: center;
+}
+
+.ctftime-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px; /* Add bottom margin to match achievements */
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ctftime-list li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust margin to match achievements */
+}
+
+.ctftime-list li i {
+    margin-right: 5px;
+}
+
+.ctftime-list a {
+    color: #f5f5f5; /* Light text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.ctftime-list a:hover {
+    color: #ccc; /* Change color on hover */
+}
