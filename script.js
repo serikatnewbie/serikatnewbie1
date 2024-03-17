@@ -54,7 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
         { title: "GCC CTF 2024", result: "9th Rank" },
         { title: "Pearl CTF 2024", result: "11th Rank" },
         { title: "Braeker CTF 2024", result: "18th Rank" },
-        { title: "Bronco CTF 2024", result: "20th Rank" }
+        { title: "Bronco CTF 2024", result: "20th Rank" },
+        { title: "nullcon HackIM, Berlin 2024", result: "2nd Rank" },
+        { title: "1753CTF 2024", result: "4th Rank" }
     ];
     
     achievements.forEach(achievement => {
