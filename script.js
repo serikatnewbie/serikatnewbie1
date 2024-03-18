@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Sample player data
     const players = [
-        { name: "itoid", role: "PWN", image: "pictures/player1.png", bio: "Determination, Hard Work, Consistency, and Prayer", bio2: "Student at National Cyber and Crypto Polytechnic" },
-        { name: "k.eii", role: "Digital Forensic/OSINT", image: "pictures/player2.png", bio: "Instant Coffee Addict", bio2: "Student at National Cyber and Crypto Polytechnic" },
+        { name: "itoid", role: "PWN", image: "pictures/player1.png", bio: "Determination, Hard Work, Consistency, and Prayer" },
+        { name: "k.eii", role: "Digital Forensic/OSINT", image: "pictures/player2.png", bio: "Instant Coffee Addict", bio2: "most precious things in my life: 1. my mom, 2. my laptop" },
         { name: "FlaB", role: "Reverse/Cryptography", image: "pictures/player3.webp", bio: "Addicted to reverse engineering and cryptography. Pursuing a degree in Computer Science." },
         { name: "bengsky", role: "Web Exploitation", image: "pictures/player4.webp", bio: "Master of web exploitation with extensive penetration testing experience." },
         { name: "Azuketto", role: "Cryptography", image: "pictures/player5.webp", bio: "Cryptographer extraordinaire, continuously exploring new encryption techniques." },
