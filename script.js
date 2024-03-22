@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Sample player data
     const players = [
-        { name: "itoid", role: "PWN", image: "pictures/player1.png", bio: "Determination, Hard Work, Consistency, and Prayer" },
-        { name: "k.eii", role: "Digital Forensic/OSINT", image: "pictures/player2.png", bio: "Instant Coffee Addict", bio2: "most precious things in my life: 1. my mom, 2. my laptop" },
-        { name: "FlaB", role: "Reverse/Cryptography", image: "pictures/player3.webp", bio: "Addicted to reverse engineering and cryptography. Pursuing a degree in Computer Science." },
+        { name: "itoid", role: "Pwn", image: "pictures/player1.png", bio: "Determination, Hard Work, Consistency, and Prayer" },
+        { name: "k.eii", role: "Digital Forensic/Osint", image: "pictures/player2.png", bio: "Instant Coffee Addict", bio2: "most precious things in my life: 1. my mom, 2. my laptop" },
+        { name: "FlaB", role: "Blockchain/Cryptography/Reverse", image: "pictures/player3.webp", bio: "Addicted to reverse engineering and cryptography. Pursuing a degree in Computer Science." },
         { name: "bengsky", role: "Web Exploitation", image: "pictures/player4.webp", bio: "Master of web exploitation with extensive penetration testing experience." },
         { name: "Azuketto", role: "Cryptography", image: "pictures/player5.webp", bio: "Cryptographer extraordinaire, continuously exploring new encryption techniques." },
-        { name: "zran", role: "PWN/Digital Forensic", image: "pictures/player6.webp", bio: "Versatile cybersecurity enthusiast specializing in PWN challenges and digital forensics." },
-        { name: "TunangannyaChizuru", role: "Digital Forensic", image: "pictures/player7.webp", bio: "Officially Engaged Mizuhara Chizuru." },
-        { name: "msfir", role: "PWN/Reverse", image: "pictures/player8.jpg", bio: "Seasoned cybersecurity professional excelling in PWN challenges and reverse engineering." },
+        { name: "zran", role: "Pwn/Digital Forensic", image: "pictures/player6.webp", bio: "Versatile cybersecurity enthusiast specializing in PWN challenges and digital forensics." },
+        { name: "TunangannyaChizuru", role: "Digital Forensic", image: "pictures/player7.webp", bio: "Officially Engaged Mizuhara Chizuru" },
+        { name: "msfir", role: "Pwn/Reverse/Web Exploitation", image: "pictures/player8.jpg", bio: "Seasoned cybersecurity professional excelling in PWN challenges and reverse engineering." },
         { name: "Fejka", role: "Web Exploitation", image: "pictures/player9.webp", bio: "Proficient Web Pentester with a strategic approach to penetration testing." },
         { name: "Rival", role: "Web Exploitation", image: "pictures/player10.webp", bio: "Adept web exploitation expert passionate about cybersecurity education." },
         { name: "Kiaraa", role: "Cryptography", image: "pictures/player11.webp", bio: "Passionate cryptographer dedicated to advancing cybersecurity through research." },
