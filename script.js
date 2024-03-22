@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "bengsky", role: "Web Exploitation", image: "pictures/player4.webp", bio: "Master of web exploitation with extensive penetration testing experience." },
         { name: "Azuketto", role: "Cryptography", image: "pictures/player5.webp", bio: "Cryptographer extraordinaire, continuously exploring new encryption techniques." },
         { name: "zran", role: "PWN/Digital Forensic", image: "pictures/player6.webp", bio: "Versatile cybersecurity enthusiast specializing in PWN challenges and digital forensics." },
-        { name: "TunangannyaChizuru", role: "Digital Forensic", image: "pictures/player7.webp", bio: "Meticulous digital forensic analyst with a passion for cyber law and ethics." },
+        { name: "TunangannyaChizuru", role: "Digital Forensic", image: "pictures/player7.webp", bio: "Officially Engaged Mizuhara Chizuru." },
         { name: "msfir", role: "PWN/Reverse", image: "pictures/player8.jpg", bio: "Seasoned cybersecurity professional excelling in PWN challenges and reverse engineering." },
         { name: "Fejka", role: "Web Exploitation", image: "pictures/player9.webp", bio: "Proficient Web Pentester with a strategic approach to penetration testing." },
         { name: "Rival", role: "Web Exploitation", image: "pictures/player10.webp", bio: "Adept web exploitation expert passionate about cybersecurity education." },
